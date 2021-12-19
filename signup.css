@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(187, 197, 222, 1) 100%
+    );
+  }
+  
+  .container .contain {
+    width: 90%;
+    margin: auto;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border-radius: 30px;
+    background: white;
+  }
+  
+  .container .contain .signup h1 {
+    font-size: 3.5rem;
+    font-family: sans-serif;
+  }
+  
+  .container .contain .signup .signupwith {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .container .contain .signup .signupwith .option {
+    width: 200px;
+    padding: 10px;
+    /* background: aliceblue; */
+    border: 1px solid gray;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .container .contain .signup .input_field {
+    margin-top: 10px;
+  }
+  
+  .container .contain .signup .input_field label p{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: gray;
+  }
+  
+  .container .contain .signup .input_field label small{
+    font-size: 1.4rem;
+  }
+  
+  .container .contain .signup .input_field label input{
+    width: 90%;
+    margin-top: 5px;
+    padding: 5px 15px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(187, 197, 222, 0.5);
+    outline: none;
+  }
+  
+  .container .contain .signup .input_field label .error{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 1.6rem;
+    visibility: hidden;
+  }
+  
+  .container .contain .signup .input_field label .error.red{
+    visibility: visible;
+    color: red;
+  }
+  
+  .container .contain .signup .input_field label .error.green{
+    visibility: visible;
+    color: green;
+  }
+  
+  .container .contain .signup .button {
+    margin-top: 15px;
+    background: #91b9dd;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 13px 10px #9db6cc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container .contain .signup .button svg {
+    font-size: 2.5rem;
+  }
+  
+  .container .contain .svg_ico {
+    display: flex;
+  }
+  
+  .container .contain .svg_ico img {
+    width: 100%;
+  }
+  
+  @media (max-width: 700px) {
+  
+      .container{
+          background: white;
+      }
+  
+    .container .contain {
+      grid-template-columns: 1fr;
+      margin-top: 10px;
+    }
+  }

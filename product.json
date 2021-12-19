@@ -1,0 +1,66 @@
+[
+    {
+        "company_name" : "Sanjanaa Consultants",
+        "image" : "./images/image1.jpeg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 3,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 4.5
+    },
+    {
+        "company_name" : "Financevaastu",
+        "image" : "./images/image2.jpg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 11,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 5
+    },
+    {
+        "company_name" : "Sanjanaa Consultants",
+        "image" : "./images/image1.jpeg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 1,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 2.5
+    },
+    {
+        "company_name" : "Financevaastu",
+        "image" : "./images/image2.jpg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 10,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 3.5
+    },
+    {
+        "company_name" : "Sanjanaa Consultants",
+        "image" : "./images/image1.jpeg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 20,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 4.2
+    },
+    {
+        "company_name" : "Financevaastu",
+        "image" : "./images/image2.jpg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 30,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 2.5
+    },
+    {
+        "company_name" : "Sanjanaa Consultants",
+        "image" : "./images/image1.jpeg",
+        "address" : "Sector 19A, Seawoo.. | more...",
+        "mobile" : "07947226427",
+        "votes" : 25,
+        "loan" : "Personal Loans,Business Loans ..",
+        "rating" : 3.2
+    }
+    
+]
